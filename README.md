@@ -29,14 +29,13 @@ It simulates behavior similar to **Bettercap**, allowing for **ARP spoofing** an
 
 Install the required library with:
 
-```bash
 pip install scapy
 
 
 ### 🚧 Warning:
 Use responsibly and only in legal, lab environments.
 
-<details> <summary>Click to expand the Python code</summary>
+```bash
 
 import logging
 from scapy.all import ARP , send , sniff
@@ -72,9 +71,9 @@ print ("-"*40)
 sniff(filter="udp port 53" , prn=dns_packet, store=0)
 </details>
 
-👨‍💻 Author
+#👨‍💻 Author
 
-Yanis Deriche — Cybersecurity & Network Security Enthusiast | Practical Labs + Projects | Open for Work
+#Yanis Deriche — Cybersecurity & Network Security Enthusiast | Practical Labs + Projects 
 
-Connect with me on LinkedIn
-Explore more of my work on GitHub
+#Connect with me on LinkedIn
+#Explore more of my work on GitHub
