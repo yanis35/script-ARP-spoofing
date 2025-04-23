@@ -69,7 +69,7 @@ print ("-"*40)
 print (f"{'IP Address': <15} \t {'DNS Query' : <30}")
 print ("-"*40)
 sniff(filter="udp port 53" , prn=dns_packet, store=0)
-</details>
+
 
 #👨‍💻 Author
 
